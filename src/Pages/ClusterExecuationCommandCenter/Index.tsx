@@ -163,7 +163,6 @@ function Index() {
           title="Inventory Readiness"
           percentage={100}
           steps={steps}
-          status="completed"
         />
       </div>
     </>
