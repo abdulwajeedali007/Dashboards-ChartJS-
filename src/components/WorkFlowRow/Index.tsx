@@ -4,13 +4,11 @@ import type { Step } from '../../Types';
 function Index({
   title,
   steps,
-  percentage,
-  status,
+  percentage
 }: {
   title: string;
   steps: Step[];
   percentage: number | string;
-  status: 'completed' | 'inprogress' | 'notstarted' | 'delay';
 }) {
   const segmentWidth = 100 / steps.length;
   return (

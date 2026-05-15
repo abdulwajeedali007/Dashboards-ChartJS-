@@ -15,7 +15,6 @@ interface dropdownTypes {
       Year: string;
       ProjectType: string;
       ClusterType: string;
-      selected: string;
     }>
   >;
   selected: string;

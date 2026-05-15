@@ -44,10 +44,10 @@ export const tasksProgress: Task[] = [
     id: 5,
     name: 'Property ID and Location ID Creation',
     startDate: '2026-05-10',
-    endDate: null,
+    endDate: '',
     progress: 0,
     status: 'notstarted',
-    updatedBy: null,
+    updatedBy: '',
     lastUpdated: '2026-05-10',
   },
 ];
